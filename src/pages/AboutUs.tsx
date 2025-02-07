@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="text-5xl font-bold text-center mb-6 animate-bounce">About Us</h1>
       <h2 className="text-3xl font-semibold mb-4">Who We Are</h2>
       <p className="mb-4 text-lg leading-relaxed">
-        Welcome to [Your Platform Name], a compassionate online platform dedicated to connecting loving homes with pets in need. Our mission is to make pet adoption easier, more transparent, and accessible to everyone. We work with shelters, rescue organizations, and individuals to help animals find their forever homes.
+        Welcome to PetPal, a compassionate online platform dedicated to connecting loving homes with pets in need. Our mission is to make pet adoption easier, more transparent, and accessible to everyone. We work with shelters, rescue organizations, and individuals to help animals find their forever homes.
       </p>
       <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
       <p className="mb-4 text-lg leading-relaxed">
@@ -32,11 +32,16 @@ const About = () => {
       </p>
       <p className="text-center text-2xl font-bold">🐶🐱 Find your perfect pet today!</p>
       <h2 className="text-3xl font-semibold mb-4">Contact Us</h2>
-      <p>📍 Address: [Your Office Address]</p>
-      <p>📞 Phone: [Your Contact Number]</p>
-      <p>📧 Email: [Your Contact Email]</p>
-      <p>🌐 Website: [Your Website URL]</p>
-      <p>📲 Follow Us: [Your Social Media Links]</p>
+     <p>📍 Address: 123 Pet Street, Barksville, PA 19000</p>
+     <p>📞 Phone: +1 (555) 987-6543</p>
+     <p>📧 Email: contact@petadoptionhub.com</p>
+     <p>🌐 Website: www.petadoptionhub.com</p>
+     <p>📲 Follow Us:  
+        <a href="https://facebook.com/petadoptionhub" className="text-blue-300 hover:underline">Facebook</a> |  
+        <a href="https://twitter.com/petadoptionhub" className="text-blue-300 hover:underline">Twitter</a> |  
+        <a href="https://instagram.com/petadoptionhub" className="text-blue-300 hover:underline">Instagram</a>  
+    </p>
+
     </div>
   );
 };
